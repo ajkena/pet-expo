@@ -40,7 +40,7 @@ export default function Gallery() {
 
   return (
     <main>
-      <h1 className='header'>Gallery </h1>
+      <h1>Gallery </h1>
       <TextField
         value={searchQuery}
         onChange={(event) => setSearchQuery(event.target.value)}
