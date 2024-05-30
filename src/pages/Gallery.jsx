@@ -40,7 +40,7 @@ export default function Gallery() {
 
   return (
     <main>
-      <h1>Gallery </h1>
+      <h1>Gallery</h1>
       <TextField
         value={searchQuery}
         onChange={(event) => setSearchQuery(event.target.value)}
@@ -55,11 +55,8 @@ export default function Gallery() {
           })
           .map((animal) => (
             <Grid key={animal.id} item xs={3}>
-              <Card key={animal.image}>
-                <img
-                  src={animal.image}
-                  onClick={() => handleClickOpen(animal)}
-                />
+              <Card key={animal.image} onClick={() => handleClickOpen(animal)}>
+                <img src={animal.image} />
                 <p>{animal.name}</p>
                 <p>{animal.origin}</p>
               </Card>
@@ -84,8 +81,6 @@ export default function Gallery() {
                 );
               })}
             </>
-            <p></p>
-            {currentAnimal.origin}
           </DialogContent>
         </Dialog>
       </Grid>
