@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #c1e8da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    
+    font-family: 'Lato', sans-serif;
+  }
+
+.header {
+  background-color: #c96868;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.header a:hover {
+  color: #5e4949;
+}
+.about{
+    background-color:#c1e8da; 
+    color: black;
+    padding: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+
+.about  h1{
+  font-family: 'Bitter';
+  font-weight: 400;
+}
+
+  .contact {
+    padding: 2rem;
+    background-color: #f29696;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    margin-bottom: 1rem;
+    font-family: 'Bitter';
+    font-weight: 400;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact form .MuiTextField-root {
+    width: 100%;
+    max-width: 500px;
+    margin: 0.5rem 0;
+  }
+ 
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-color: #b37350;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .cards p {
+    margin: 0.5rem 0;
+  }
+  .dialog{
+    background-color: #c1e8da;
+    color: #5e4949;
+    font-size: 1.2rem;
+  }
+  .dialog img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .dialog p {
+    margin: 0.5rem 0;
+  }
+
+  
+  

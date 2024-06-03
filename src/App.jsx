@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header>
-        <ul>
+        <ul className='header'>
           <li>
             <a href='/'>Home</a>
           </li>

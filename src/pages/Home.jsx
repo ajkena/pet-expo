@@ -3,9 +3,9 @@ import ContactUs from './ContactUs';
 export default function Home() {
   return (
     <main>
-      <section>
-        <h1>About Us</h1>
-        <p>
+      <section className='about'>
+        <h1 style={{color: '#5e4949', fontSize: '2rem'}}>About Us</h1>
+        <p style={{color: '#5e4949', fontSize: '1.5rem'}}>
           Welcome to Pet Expo, the ultimate destination for pet enthusiasts! Our
           website showcases a delightful array of cats, dogs, and birds,
           complete with stunning photos and comprehensive information about each
